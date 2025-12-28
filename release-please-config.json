@@ -1,0 +1,16 @@
+{
+  "packages": {
+    "alb": {
+      "release-type": "terraform-module"
+    },
+    "ecs-cluster": {
+      "release-type": "terraform-module"
+    },
+    "s3-private": {
+      "release-type": "terraform-module"
+    },
+    "security-group": {
+      "release-type": "terraform-module"
+    }
+  }
+}
