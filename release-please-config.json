@@ -1,16 +1,24 @@
 {
-  "packages": {
-    "alb": {
-      "release-type": "terraform-module"
-    },
-    "ecs-cluster": {
-      "release-type": "terraform-module"
-    },
-    "s3-private": {
-      "release-type": "terraform-module"
-    },
-    "security-group": {
-      "release-type": "terraform-module"
+    "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+    "pull-request-title-pattern": "chore: release ${component} ${version} 🚀",
+    "include-component-in-tag": true,
+    "separate-pull-requests": true,
+    "packages": {
+        "alb": {
+            "release-type": "terraform-module",
+            "package-name": "alb"
+        },
+        "ecs-cluster": {
+            "release-type": "terraform-module",
+            "package-name": "ecs-cluster"
+        },
+        "s3-private": {
+            "release-type": "terraform-module",
+            "package-name": "s3-private"
+        },
+        "security-group": {
+            "release-type": "terraform-module",
+            "package-name": "security-group"
+        }
     }
-  }
 }

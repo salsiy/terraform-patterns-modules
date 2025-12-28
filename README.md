@@ -18,5 +18,5 @@ This repository uses **Release Please**.
 ## Usage
 Reference these modules in your `terraform-patterns-live` repository using the `git` source URL with a tag.
 ```hcl
-source = "git::https://github.com/YOUR_ORG/terraform-patterns-modules.git//ecs-cluster?ref=v1.0.0"
+source = "git::https://github.com/salsiy/terraform-patterns-modules.git//ecs-cluster?ref=v1.0.0"
 ```
