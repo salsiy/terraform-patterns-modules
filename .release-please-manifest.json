@@ -2,5 +2,5 @@
     "alb": "0.1.0",
     "ecs-cluster": "0.1.0",
     "s3-private": "0.0.0",
-    "security-group": "0.0.0"
+    "security-group": "0.1.0"
 }
